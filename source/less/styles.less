@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background: #fff;
+	font-family: 'Helvetica';
+}
+.form-control {
+	margin: 0em;
+	outline: none;
+	-webkit-appearance: none;
+	tap-highlight-color: rgba(255, 255, 255, 0);
+	line-height: 1.2142em;
+	padding: 0.67861429em 1em;
+	font-size: 1.5em;
+	background: #fafafa;
+	border: 1px solid #cccccc;
+	color: rgba(0, 0, 0, 0.87);
+	border-radius: 3px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset;
+	transition: color 0.1s ease, border-color 0.1s ease;
+	resize: none;
+
+	&:focus {
+		color: rgba(0, 0, 0, 0.95);
+		border-color: #51a7e8;
+		border-radius: 3px;
+		background: #ffffff;
+		box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.075) inset, 0px 0px 5px rgba(81, 167, 232, 0.5);
+	}
+}
+.steps{
+	font-size: 6em;
+}
+.screen-center {
+	display: block;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+.connect-btn {
+	cursor: pointer;
+	display: inline-block;
+	min-height: 1em;
+	outline: none;
+	border: none;
+	vertical-align: baseline;
+	background: #ffffff none;
+	color: rgba(0, 0, 0, 0.6);
+	font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	margin: 0em 0.25em 0em 0em;
+	padding: 1.25em 3em 1.25em;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	text-shadow: none;
+	font-weight: bold;
+	line-height: 1em;
+	font-style: normal;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 500rem;
+	box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.2) inset;
+	user-select: none;
+	transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+	will-change: '';
+	-webkit-tap-highlight-color: transparent;
+
+	box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
+	background-color: #2185d0;
+	color: #ffffff;
+	text-shadow: none;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.1));
+
+	&:active {
+		background-color: #1a69a4;
+		color: #ffffff;
+		text-shadow: none;
+	}
+}
+
+.hidden {
+	display: none;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.img-wrapper {
+	height: 220px;
+	overflow: hidden;
+}
+
+.centered-container {
+	width: 500px;
+	margin: 0 auto;
+
+	.form-control {
+		width: 100%;
+		height: 200px;
+	}
+}
+
+@media (max-width: 700px) {
+	.centered-container {
+		width: 100%;
+	}
+}
+
+@import 'icons.less';
+@import 'swipe.less';
+@import 'loader.less';

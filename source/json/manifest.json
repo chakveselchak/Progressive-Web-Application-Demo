@@ -1,0 +1,38 @@
+{
+    "lang": "ru",
+    "dir": "ltr",
+    "name": "Progressive Web Application",
+    "short_name": "PWA Demo",
+    "description": "Это тестовое Progressive Web Application",
+    "icons": [{
+        "src": "./img/icon/app-icon.png",
+        "sizes": "64x64",
+        "type": "image/png"
+    },{
+        "src": "./img/icon/app-icon-96.png",
+        "sizes": "96x96",
+        "type": "image/png"
+    },{
+        "src": "./img/icon/app-icon-128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+    },{
+        "src": "./img/icon/app-icon-144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    },{
+        "src": "./img/icon/app-icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    },{
+        "src": "./img/icon/app-icon-256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+    }],
+    "scope": "/docsite/",
+    "start_url": "/docsite/",
+    "display": "standalone",
+    "theme_color": "#6491a5",
+    "orientation": "portrait-primary",
+    "background_color": "white"
+}
